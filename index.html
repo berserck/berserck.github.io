@@ -171,7 +171,6 @@
 
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="50">
 
-
     <!-- Modal -->
     <div class="modal fade" id="ModalGallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
@@ -184,16 +183,15 @@
             </div>
             <!-- Left and right controls -->
             <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="icon-prev" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
             <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="icon-next" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
         </div>
     </div>
-
 
     <div class="bg"></div>
     <header class="jumbotron">
@@ -218,15 +216,16 @@
                         </div>
 
                         <div class="col-xs-12 col-sm-10 col-sm-offset-2">
-                            <p class="lead text-justify">Software engineer with 14+ years of dedication to automating
+                            <p class="lead text-justify">Software engineer with 18+ years of dedication to automating
                                 everything and producing clean, efficient, understandable and documented code.
                                 <br>Experienced in programming complex distributed systems, software drivers, middleware
                                 supervisors and web applications (Front-end and back-end) in C++, C#, PHP, HTML, CSS and
                                 JavaScript.
+                                <br>In recent years, I have worked on Track &amp; Trace solutions for regulated
+                                products.
                                 <br>Strong background in Physics, Math, data acquisition and data analysis.
                                 <br>Experienced in business analysis and project management.
                             </p>
-
                         </div>
                     </section>
 
@@ -246,16 +245,20 @@
                                         <ul style="font-size: 1.3em;">
                                             <li><i class="fa fa-linkedin" aria-hidden="true"></i>
                                                 <a href="https://ch.linkedin.com/in/pedro-parracho-154a89"> Linkedin
-                                                    profile</a> </li>
+                                                    profile</a>
+                                            </li>
                                             <li><i class="fa fa-github" aria-hidden="true"></i>
-                                                <a href="https://github.com/berserck"> My github page </a></li>
+                                                <a href="https://github.com/berserck"> My github page </a>
+                                            </li>
                                             <li><i class="fa fa-github" aria-hidden="true"></i>
-                                                <a href="http://resume.github.io/?berserck"> My github resume </a></li>
+                                                <a href="http://resume.github.io/?berserck"> My github resume </a>
+                                            </li>
                                             <!-- <li><i class="fa fa-stack-overflow" aria-hidden="true"></i>
                                                 <a href="http://stackoverflow.com/users/story/4354379"> Stackoverflow
                                                     Developer story</a></li> -->
                                             <li><img class="icon-small" src="img/helplogger.blogspot.com.ico">
-                                                <a href="https://lhc-cern.blogspot.com/"> My blog</a></li>
+                                                <a href="https://lhc-cern.blogspot.com/"> My blog</a>
+                                            </li>
                                             <li><i class="fa fa-free-code-camp" aria-hidden="true"></i>
                                                 <a href="https://www.freecodecamp.com/berserck">Free code camp page</a>
                                             </li>
@@ -287,7 +290,8 @@
                                         <h3 class="panel-title">
                                             <a
                                                 href="http://demo.deram.com/GenericSigmaTreasury_V2.9/Account/login.aspx">
-                                                Sigma CTRM</a></h3>
+                                                Sigma CTRM</a>
+                                        </h3>
                                     </div>
                                     <div class="panel-body">
                                         <a href="#" data-toggle="modal" data-target="#ModalGallery" data-gallery="ctrm">
@@ -326,7 +330,8 @@
                                     <div class="panel-heading">
                                         <h3 class="panel-title">
                                             <a href="http://demo.deram.com/BankPositionReconciliation/">Bank Position
-                                                Reconciliation</a></h3>
+                                                Reconciliation</a>
+                                        </h3>
                                     </div>
                                     <div class="panel-body">
                                         <a href="#" data-toggle="modal" data-target="#ModalGallery" data-gallery="bpr">
@@ -411,9 +416,9 @@
                                         </p>
                                         <p>The synchronization link boards implement the synchronization of
                                             electromagnetic and hadronic trigger primitives at the LHC frequency (40.08
-                                            MHz) and its transmission to the Regional Calorimeter Trigger. Druing the
+                                            MHz) and its transmission to the Regional Calorimeter Trigger. During the
                                             calorimeter trigger upgrade the original SLBs (copper links @ 1.2Gb/s) were
-                                            replaced by oSLBS (optical connection @ 4.8 Gb/s)</p>
+                                            replaced by oSLBs (optical connection @ 4.8 Gb/s)</p>
                                         <p>The suit was composed of the drivers for SLB/oSLB + tester board, GUI
                                             applications for operation and production tests and ths number of command
                                             line tools.</p>
@@ -428,6 +433,38 @@
                         <div class="page-header">
                             <h1 id="projects" class="text-primary">Personal projects</h1>
                         </div>
+
+                        <section class="row subsection">
+                            <div class="col-xs-12 col-sm-offset-1">
+                                <div class="page-header">
+                                    <h2 id="projects-kodirtp">KodiRTP</h2>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 col-sm-11 col-sm-offset-1">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title"><a href="https://github.com/berserck/kodi-rtp">
+                                                <i class="fa fa-github" aria-hidden="true"></i> GitHub repository</a>
+                                        </h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <a href="#" data-toggle="modal" data-target="#ModalGallery"
+                                            data-gallery="kodi-rtp">
+                                            <img src="img/kodi-video-addons.png" alt="KodiRTP in Kodi video add-ons"
+                                                class="img-responsive img-thumbnail img-screenshot pull-right">
+                                        </a>
+                                        <p class="lead">Unofficial Kodi add-on for watching RTP's live TV channels.</p>
+                                        <p>KodiRTP was developed with AI assistance using GitHub Copilot in Visual Studio Code.</p>
+                                        <p>Browse RTP1, RTP2, RTP3, and RTPMemoria. KodiRTP discovers the current
+                                            stream for each channel and selects direct HLS playback or DASH playback
+                                            with Widevine DRM, depending on the stream protection.</p>
+                                        <p>Built with Python for Kodi, with <code>inputstream.adaptive</code> and
+                                            InputStream Helper supporting protected streams.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
 
                         <section class="row subsection">
                             <div class="col-xs-12 col-sm-offset-1">
@@ -459,14 +496,12 @@
                                         <p>
                                             The user can copy the shown foto to <b>Destination1</b> or
                                             <b>Destination2</b> by pressing the buttons 1 or 2 respectively.
-
                                         </p>
                                         <p>For this project I used <a
                                                 href="https://en.wikipedia.org/wiki/Windows_Forms">windows forms</a>.
                                         </p>
                                         <p> The source code can be found in <a
                                                 href="https://github.com/berserck/foto-select">github</a>.</p>
-
                                     </div>
                                 </div>
                             </div>
@@ -507,8 +542,8 @@
                                             <a
                                                 href="https://en.wikipedia.org/wiki/Extensible_Application_Markup_Language">XAML</a>
                                             and <a href="https://serilog.net/">Serilog</a>.
-                                            <p> The source code can be found in <a
-                                                    href="https://github.com/berserck/FotoSorter">github</a>.</p>
+                                        <p> The source code can be found in <a
+                                                href="https://github.com/berserck/FotoSorter">github</a>.</p>
 
                                     </div>
                                 </div>
@@ -536,7 +571,8 @@
                                                 class="img-responsive img-thumbnail img-screenshot pull-right">
                                         </a>
                                         <p class="lead">Javascript note application using local storage.</p>
-                                        <p>Wrote this small application to always have at hand a small note taking application.</p>
+                                        <p>Wrote this small application to always have at hand a small note taking
+                                            application.</p>
                                         <p>Used this app to learn how to use local storage in javascript.</p>
                                         <a href="https://pedro.parracho.eu/pgp-notes/index.html">Link to the PgNotes</a>
                                         </p>
@@ -575,7 +611,8 @@
                                             <a href="https://www.twitch.tv/">twitch</a> channels, when the user first
                                             visits t
                                             he page there is a number of predefined channels for which the status is
-                                            queried.</p>
+                                            queried.
+                                        </p>
                                         <p>
                                             The user has the possibility to add channels to the list. When a channel is
                                             added,
@@ -590,7 +627,8 @@
                                         <p>For this project I used JavaScript,
                                             <a href="https://facebook.github.io/react">React</a>,
                                             and <a href="http://materializecss.com/">Materialize</a>
-                                            for this project.</p>
+                                            for this project.
+                                        </p>
                                         <p> The source code can be found in <a
                                                 href="https://codepen.io/berserck/pen/rmpOJx">codepen</a>.</p>
 
@@ -744,7 +782,8 @@
                                             class="img-responsive img-thumbnail img-screenshot pull-left">
                                         <p class="lead">Rename files scripts for mac OS X, it will take a bunch of files
                                             and will change their name according with the scheme:
-                                            <samp>aaaa.mm.dd.filename.sequence.jpeg</samp></p>
+                                            <samp>aaaa.mm.dd.filename.sequence.jpeg</samp>
+                                        </p>
                                         <p>The date field is created using the file creation time, the filename is a
                                             text string requested by the script via dialog window, sequence a is a
                                             sequential number generated.</p>
@@ -790,7 +829,8 @@
                                     <div class="panel-body">
                                         <p class="lead">It will rotate the image left or right</p>
                                         <p> (it is a service, you need to extract file to
-                                            <code>$HOME/Library/Services/</code>)</p>
+                                            <code>$HOME/Library/Services/</code>)
+                                        </p>
                                         <ul>
                                             <li><a
                                                     href="https://www.dropbox.com/s/v5vew5o8v86rnbk/RotateRight.tgz?dl=1">Rotate
@@ -931,11 +971,11 @@
         <div class="container">
             <div class="col-xs-12">
                 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img
-                        alt="Creative Commons License" style="border-width:0"
-                        src="img/by-nc.svg" width="88"/></a><br />This work is licensed
-                under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
-                    Attribution-NonCommercial 4.0 International License</a>.
-                <p>Last changed 2022.02.05 by Pedro Parracho</p>
+                        alt="Creative Commons License" style="border-width:0" src="img/by-nc.svg"
+                        width="88" /></a><br />This work is licensed under a 
+                        <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+                            Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+                <p>Last changed 2026.11.25 by Pedro Parracho</p>
                 <p> <a href="https://www.toptal.com/designers/subtlepatterns/connected/">Background</a> licence <a
                         href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> - Subtle Patterns © <a
                         href="https://www.toptal.com/designers"> Toptal Designers</a></p>
@@ -963,6 +1003,13 @@
         }
 
         var galleryData = {
+            'kodi-rtp': {
+                images: [
+                    'img/kodi-video-addons.png',
+                    'img/kodi-rtp-channels.png',
+                    'img/kodi-rtp-addon-details.png'
+                ]
+            },
             'ctrm': {
                 images: [
                     'img/CTRM_boat_report.png',
@@ -1076,7 +1123,7 @@
                         var subList = createList(listSubsectionProperties);
                         subsections.find("h2").each(function (number, element) {
                             var item = addListItem(subList, '#' + element.id, element
-                            .innerHTML);
+                                .innerHTML);
                         });
                         list.appendChild(subList);
                     }
